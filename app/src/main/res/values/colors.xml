@@ -4,6 +4,10 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
+
+    <color name="White">#ffffff</color>
+    <color name="black">#000000</color>
+
     <color name="colorVkPrimary">#4986CC</color>
     <color name="colorVkPrimaryDark">#376499</color>
     <color name="colorShareOutline">#99A2AD</color>

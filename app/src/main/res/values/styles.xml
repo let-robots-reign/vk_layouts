@@ -1,4 +1,5 @@
 <resources>
+
     <style name="VkTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorVkPrimary</item>
         <item name="colorPrimaryDark">@color/colorVkPrimary</item>
@@ -43,5 +44,14 @@
         <item name="android:textColorHint">@color/colorHint</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
+
+    <style name="VkTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="VkTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="VkTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
