@@ -11,4 +11,6 @@
     <color name="colorButtonDisabled">#818C99</color>
     <color name="colorTextEditFill">#F2F3F5</color>
     <color name="colorTextEditBorders">#E1E3E6</color>
+    <color name="cardBackground">#F5F5F5</color>
+    <color name="subheadingTextColor">#6D7885</color>
 </resources>

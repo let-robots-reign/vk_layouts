@@ -9,15 +9,11 @@
     android:background="@android:color/white">
 
     <androidx.appcompat.widget.Toolbar
-        style="@style/VkTheme.Toolbar"
-        android:elevation="4dp">
-
+        style="@style/VkTheme.Toolbar">
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/VkTheme.Heading"
             android:text="@string/donations_heading"
             android:layout_gravity="center"/>
-
     </androidx.appcompat.widget.Toolbar>
 
     <TextView

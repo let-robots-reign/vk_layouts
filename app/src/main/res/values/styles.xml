@@ -11,6 +11,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?android:attr/actionBarSize</item>
         <item name="android:background">@android:color/white</item>
+        <item name="android:elevation">4dp</item>
     </style>
 
     <style name="VkTheme.Heading">
