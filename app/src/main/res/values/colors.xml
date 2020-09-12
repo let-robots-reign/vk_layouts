@@ -16,5 +16,7 @@
     <color name="colorTextEditFill">#F2F3F5</color>
     <color name="colorTextEditBorders">#E1E3E6</color>
     <color name="cardBackground">#F5F5F5</color>
+    <color name="indefinite_gray">#c4c4c4</color>
     <color name="subheadingTextColor">#6D7885</color>
+    <color name="progress">#4BB34B</color>
 </resources>
