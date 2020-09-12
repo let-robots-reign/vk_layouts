@@ -21,7 +21,7 @@
         <TextView
             style="@style/VkTheme.Heading"
             android:layout_gravity="center"
-            android:text="Регулярный сбор" />
+            android:text="@string/regular_fee" />
     </androidx.appcompat.widget.Toolbar>
 
 <ScrollView
@@ -110,7 +110,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Загрузить обложку"
+        android:text="@string/download_cover"
         android:fontFamily="@font/sfpro_medium"
         android:textColor="@color/colorVkPrimary"
         android:textSize="18sp"
@@ -135,7 +135,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/sfpro_regular"
-            android:text="Название сбора"
+            android:text="@string/fee_name_string"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:textColor="@color/colorHint"
@@ -150,7 +150,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/sfpro_regular"
-            android:hint="Название сбора"
+            android:hint="@string/fee_name_hint"
             android:textColor="@color/colorHint"
             android:textSize="16sp"
            />
@@ -162,7 +162,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:fontFamily="@font/sfpro_regular"
-            android:text="Сумма"
+            android:text="@string/summa"
             android:textColor="@color/colorHint"
             android:textSize="14sp" />
 
@@ -175,7 +175,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/sfpro_regular"
-            android:hint="Сколько нужно собрать?"
+            android:hint="@string/summa_hint"
             android:textColor="@color/colorHint"
             android:textSize="16sp"
             />
@@ -187,7 +187,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:fontFamily="@font/sfpro_regular"
-            android:text="Цель"
+            android:text="@string/aim"
             android:textColor="@color/colorHint"
             android:textSize="14sp" />
 
@@ -200,7 +200,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/sfpro_regular"
-            android:hint="Например, для лечения человека"
+            android:hint="@string/aim_string_example"
             android:textColor="@color/colorHint"
             android:textSize="16sp"
             />
@@ -211,7 +211,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text="Описание"
+            android:text="@string/description"
             android:textColor="@color/colorHint"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/description_edittext"
@@ -227,7 +227,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/sfpro_regular"
-            android:hint="На что пойдут деньги и как они кому-то помогут?"
+            android:hint="@string/description_example"
             android:lines="2"
             android:textColor="@color/colorHint"
             android:textSize="16sp"
@@ -240,7 +240,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:fontFamily="@font/sfpro_regular"
-            android:text="Куда получать деньги"
+            android:text="@string/pay_title"
             android:textColor="@color/colorHint"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/pay_edittext"
@@ -257,7 +257,7 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/sfpro_regular"
             android:lines="1"
-            android:text="Счет VK Pay • 1234"
+            android:text="@string/payment_string_example"
             android:textColor="@color/black"
             android:textSize="16sp"
             />
@@ -268,7 +268,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text="Автор"
+            android:text="@string/author"
             android:textColor="@color/colorHint"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/description_edittext"
@@ -299,7 +299,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="48dp"
             android:fontFamily="@font/sfpro_medium"
-            android:text="Далее"
+            android:text="@string/next"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
