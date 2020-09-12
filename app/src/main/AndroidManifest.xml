@@ -11,7 +11,7 @@
         android:theme="@style/VkTheme">
         <activity
             android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
+            android:label="Main2"
             android:theme="@style/VkTheme.NoActionBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
