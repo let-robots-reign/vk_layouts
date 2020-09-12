@@ -56,7 +56,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Целевой сбор"
-                        android:fontFamily="@font/sfpro_semibold"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"/>
 
@@ -64,7 +63,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Когда есть определенная цель"
-                        android:fontFamily="@font/sfpro_regular"
                         android:textColor="@color/subheadingTextColor"
                         android:textSize="14sp"/>
                 </LinearLayout>
@@ -114,7 +112,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Регулярный сбор"
-                        android:fontFamily="@font/sfpro_semibold"
                         android:textColor="@android:color/black"
                         android:textSize="16sp"/>
 
@@ -122,7 +119,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Если помощь нужна ежемесячно"
-                        android:fontFamily="@font/sfpro_regular"
                         android:textColor="@color/subheadingTextColor"
                         android:textSize="14sp"/>
                 </LinearLayout>
