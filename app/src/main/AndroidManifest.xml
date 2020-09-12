@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DonationTypeActivity"/>
+        <activity android:name=".FillInfoActivity"/>
     </application>
 
 </manifest>
